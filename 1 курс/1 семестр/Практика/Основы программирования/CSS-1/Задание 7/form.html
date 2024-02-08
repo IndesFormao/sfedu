@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="Static/Styles/form.css">
+    <link rel="icon" href="Static/images/icon.webp" type="image">
+</head>
+
+<body>
+    <form name="refistration" method="get">
+        <table>
+            <tr>
+                <td colspan="2" class="center col">РЕГИСТРАЦИОННАЯ ФОРМА<br>ДЛЯ ПРОПУСКА В ХАЛЛОУНЕСТ</td>
+            </tr>
+            <tr>
+                <td class="col"><label for="first-name">Имя:</label></td>
+                <td><input name="first-name" id="first-name" type="text" size="20" tabindex="1" accesskey="q" title="first-name" /></td>
+            </tr>
+            <tr>
+                <td class="col"><label for="last-name">Фамилия:</label></td>
+                <td><input name="last-name" id="last-name" type="text" size="20" tabindex="2" accesskey="w" title="last-name" /></td>
+            </tr>
+            <tr>
+                <td class="col"><label for="age">Возраст:</label></td>
+                <td><input name="age" id="age" type="text" size="3" maxlength="3" tabindex="5" accesskey="g" title="age" /></td>
+            </tr>
+            <tr>
+                <td class="col" rowspan="2"><label for="gender">Пол:</label></td>
+                <td><input name="gender" id="gender" type="radio" tabindex="3" accesskey="r" title="male" />Мужской</td>
+            </tr>
+            <tr>
+                <td><input name="gender" type="radio" tabindex="4" accesskey="a" title="female" />Женский</td>
+            </tr>
+            <tr>
+                <td class="col" rowspan="2"><label for="attitude">Отношение к<br>Лучезарности:</label></td>
+                <td><input name="attitude" id="attitude" type="radio" tabindex="6" accesskey="s" title="attitude-1" />Обожествление</td>
+            </tr>
+            <tr>
+                <td><input name="attitude" type="radio" tabindex="7" accesskey="v" title="attitude-2" />Ненависть</td>
+            </tr>
+            <tr>
+                <td class="col"><label for="profession">На какую работу<br>Вы хотите устроиться:</label></td>
+                <td>
+                    <select name="profession" id="profession" tabindex="9" accesskey="f" title="profession">
+                        <option>Шахтер</option>
+                        <option>Странствующий торговец</option>
+                        <option>Воин</option>
+                        <option>Ученый</option>
+                        <option>Могильщик</option>
+                        <option>Иное</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="col"><label for="password">Пароль для входа<br>в Халлоунест</label></td>
+                <td><input name="password" id="password" type="password" tabindex="8" accesskey="z" title="password-1" /></td>
+            </tr>
+            <tr>
+                <td class="col"><label for="correctly-password">Повторите<br>пароль:</label></td>
+                <td><input name="correctly-password" id="correctly-password" type="password" tabindex="10" accesskey="x" title="password-2" /></td>
+            </tr>
+            <tr>
+                <td class="col"><label for="wish">Пожелания:</label></td>
+                <td><textarea name="wish" id="wish" cols="30" rows="5" placeholder="Что вы хотите пожелать гражданам или сказать Черву?"
+                        tabindex="11" accesskey="c" title="wish"></textarea></td>
+            </tr>
+            <tr>
+                <td class="center"><a href="form.html"><img src="Static/images/form/reset.jpg"
+                        title="Очистить форму"></a><br>Примкнуть к Лучезарности</td>
+                <td class="center"><input type="image" src="Static/Images/form/send.webp"
+                        title="Зарегистрироваться"><br>Начать испытание</td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

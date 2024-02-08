@@ -1,0 +1,11 @@
+.skill-text{
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+    margin: 3px;
+}
+.text-bold{
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+}

@@ -1,0 +1,8 @@
+.block{
+    height: 450px;
+    width: 300px;
+    border: solid 1px;
+    background-color: yellow;
+    margin: 10px; /*отступ ВНЕ*/
+    padding: 10px; /*отступ В*/
+}

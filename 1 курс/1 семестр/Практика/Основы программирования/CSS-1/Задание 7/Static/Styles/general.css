@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:cornsilk;
+}
+
+body{
+    background-image: url("../images/background-image.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: opacity(80%);
+}
+header{
+    margin: auto;
+    display: flex;
+    height: 90vh;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.none-underline{
+    text-decoration: none;
+    font-size: 30px;
+    margin-inline: auto; 
+}
+
+img{
+    margin: 10px;
+}
+
+ol{
+    margin: 50px;
+    font-size: 35px;
+}

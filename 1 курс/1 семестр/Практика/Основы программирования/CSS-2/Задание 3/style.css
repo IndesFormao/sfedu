@@ -1,0 +1,32 @@
+body{
+    background-image: url(../images/bgrd.jpg);
+    background-repeat: repeat-y;
+    background-color: lightblue;
+    background-attachment: fixed;
+    margin-left: 200px;
+    margin-top: 100px;
+}   
+
+img{
+    height: 195px;
+    width: 298px;
+    background-color:lightblue;
+}
+
+#img1{
+    border: 4px ridge lightblue;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+div#outer{
+    width: 500px;
+    border: 1px solid rgb(70, 130, 180);
+    text-align: center;
+    background-image:url(../images/wrapper_bg.gif);
+}
+
+div#for-scroll{
+    height: 100vh;
+}

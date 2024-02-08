@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Задание 3</title>
+    <link rel="stylesheet" href="Static/Styles/general.css">
+</head>
+
+<body>
+    <table class="outside">
+        <tr>
+            <td>
+                <form name="registration-1" method="get">
+                    <table class="table-1">
+                        <tr>
+                            <td colspan="2" class="center col">РЕГИСТРАЦИОННАЯ ФОРМА<br>УЧАСТНИКА ФОРУМА</td>
+                        </tr>
+                        <tr>
+                            <td class="col"><label for="first-name">Имя:</label></td>
+                            <td><input name="first-name" id="first-name" type="text" size="20" tabindex="1" accesskey="q" title="first-name"/></td>
+                        </tr>
+                        <tr>
+                            <td class="col"><label for="last-name">Фамилия:</label></td>
+                            <td><input name="last-name" id="last-name" type="text" size="20" tabindex="2" accesskey="w" title="last-name"/></td>
+                        </tr>
+                        <tr>
+                            <td class="col"><label for="age">Возраст:</label></td>
+                            <td><input name="age" id="age" type="text" size="3" maxlength="3" tabindex="5" accesskey="g" title="age"/></td>
+                        </tr>
+                        <tr>
+                            <td class="col top" rowspan="2"><label for="gender">Пол:</label></td>
+                            <td><input name="gender" id="gender" type="radio" tabindex="3" accesskey="r" title="male" value="male"/>Мужской</td>
+                        </tr>
+                        <tr>
+                            <td><input name="gender" type="radio" tabindex="4" accesskey="a" title="female" value="female"/>Женский</td>
+                        </tr>
+                        <tr>
+                            <td class="col" rowspan="2"><label for="attitude">Отношение<br>к учебе:</label></td>
+                            <td><input name="attitude" id="attitude" type="checkbox" tabindex="6" accesskey="s" title="attitude-1" value="no-ok"/>Специальность выбрана неудачно</td>
+                        </tr>
+                        <tr>
+                            <td><input name="attitude" type="checkbox" tabindex="7" accesskey="v" title="attitude-2" value="ok"/>Нравится учиться</td>
+                        </tr>
+                        <tr>
+                            <td class="col"><label for="OS">Преимущественно<br>используемая ОС:</label></td>
+                            <td>
+                                <select name="OS" id="OS" tabindex="9" accesskey="f" title="OS">
+                                    <option>Windows 7</option>
+                                    <option>Windows XP</option>
+                                    <option>Windows Vista</option>
+                                    <option>Linux</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col"><label for="password">Пароль для работы<br>в нашей системе:</label></td>
+                            <td><input name="password" id="password" type="password" tabindex="8" accesskey="z" title="password-1"/></td>
+                        </tr>
+                        <tr>
+                            <td class="col"><label for="correctly-password">Повторите<br>пароль:</label></td>
+                            <td><input name="correctly-password" id="correctly-password" type="password" tabindex="10" accesskey="x" title="password-2"/></td>
+                        </tr>
+                        <tr>
+                            <td class="col top"><label for="wish">Пожелания:</label></td>
+                            <td><textarea name="wish" id="wish" cols="30" rows="5"
+                                    placeholder="Что вы хотите пожелать участникам форума?" tabindex="11" accesskey="c" title="wish"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td class="center"><input type="reset" value="Обновить форму!"></td>
+                            <td class="col"><input type="image" src="Static/Images/send.jpg"></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+            <td>
+                <form name="registration" method="get">
+                    <table class = "table-2">
+                        <tr>
+                            <td colspan="2" class="center col">РЕГИСТРАЦИОННАЯ ФОРМА<br>УЧАСТНИКА ФОРУМА</td>
+                        </tr>
+                        <tr>
+                            <td class="col"><label for="first-name-1">Имя:</label></td>
+                            <td><input name="first-name-1" id="first-name-1" type="text" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td class="col"><label for="last-name-1">Фамилия:</label></td>
+                            <td><input name="last-name-1" id="last-name-1" type="text" size="20"/></td>
+                        </tr>
+                        <tr>
+                            <td class="col"><label for="age-1">Возраст:</label></td>
+                            <td><input name="age-1" id="age-1" type="text" size="3" maxlength="3"/></td>
+                        </tr>
+                        <tr>
+                            <td class="col top" rowspan="2"><label for="gender-1">Пол:</label></td>
+                            <td><input name="gender-1" id="gender-1" type="radio" value="male"/>Мужской</td>
+                        </tr>
+                        <tr>
+                            <td><input name="gender-1" type="radio" value="female"/>Женский</td>
+                        </tr>
+                        <tr>
+                            <td class="col" rowspan="2"><label for="attitude-1">Отношение<br>к учебе:</label></td>
+                            <td><input name="attitude-1" id="attitude-1" type="checkbox" value="no-ok"/>Специальность выбрана неудачно</td>
+                        </tr>
+                        <tr>
+                            <td><input name="attitude-1" type="checkbox" value="ok"/>Нравится учиться</td>
+                        </tr>
+                        <tr>
+                            <td class="col"><label for="OS-1">Преимущественно<br>используемая ОС:</label></td>
+                            <td>
+                                <select name="OS" id="OS-1">
+                                    <option>Windows 7</option>
+                                    <option>Windows XP</option>
+                                    <option>Windows Vista</option>
+                                    <option>Linux</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col"><label for="password-1">Пароль для работы<br>в нашей системе:</label></td>
+                            <td><input name="password-1" id="password-1" type="password"/></td>
+                        </tr>
+                        <tr>
+                            <td class="col"><label for="correctly-password-1">Повторите<br>пароль:</label></td>
+                            <td><input name="correctly-password-1" id="correctly-password-1" type="password"/></td>
+                        </tr>
+                        <tr>
+                            <td class="col top"><label for="wish-1">Пожелания:</label></td>
+                            <td><textarea name="wish-1" id="wish-1" cols="30" rows="5"
+                                    placeholder="Что вы хотите пожелать участникам форума?"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td class="center"><input type="reset" value="Обновить форму!"></td>
+                            <td class="col"><input type="image" src="Static/Images/send.jpg"></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>    
+</body>
+
+</html>

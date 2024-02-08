@@ -1,0 +1,149 @@
+.map{
+    width: calc(35.69 * 4vh);
+    height: calc(22.41 * 4vh);
+    margin-inline: auto;
+    /* background-image: url(../images/map-pieces/full-map/map.png);
+    background-size: cover; */
+}
+
+:root{
+    --index: 3.2;
+    --index-2: 3;
+}
+
+.map>a{
+    position: absolute;
+    background-size: cover;
+}
+
+
+
+#acantilados-aulladores{
+    background-image: url(../images/map-pieces/full-map/acantilados-aulladores.png);
+    width:  calc(652px / var(--index));
+    height: calc(470px / var(--index));
+    translate: 177px 24px;
+    z-index: 1;
+}
+
+#bocaucia{
+    background-image: url(../images/map-pieces/full-map/bocaucia.png);
+    width:  calc(723px / var(--index));
+    height: calc(263px / var(--index));
+    translate: 345px 89px;
+    z-index: 3;
+}
+
+#cumbre-de-cristal{
+    background-image: url(../images/map-pieces/full-map/cumbre-de-cristal.png);
+    width:  calc(824px / var(--index));
+    height: calc(690px / var(--index));
+    translate: 575px 13px;
+    z-index: 2;
+}
+
+#sendero-verde{
+    background-image: url(../images/map-pieces/full-map/sendero-verde.png);
+    width:  calc(1062px / var(--index));
+    height: calc(392px / var(--index));
+    translate: 68px 149px;
+    z-index: 3;
+}
+
+#cruces-olvidados{
+    background-image: url(../images/map-pieces/full-map/cruces-olvidados.png);
+    width:  calc(799px / var(--index));
+    height: calc(325px / var(--index));
+    translate: 408px 176px;
+    z-index: 3;
+}
+
+#tierras-de-reposo{
+    background-image: url(../images/map-pieces/full-map/tierras-de-reposo.png);
+    width:  calc(936px / var(--index));
+    height: calc(354px / var(--index));
+    translate: 660px 170px;
+    z-index: 1;
+}
+
+#jardines-de-la-reina{
+    background-image: url(../images/map-pieces/full-map/jardines-de-la-reina.png);
+    width:  calc(727px / var(--index));
+    height: calc(433px / var(--index));
+    translate: 73px 280px;
+    z-index: 1;
+}
+
+#canon-nublado{
+    background-image: url(../images/map-pieces/full-map/canon-nublado.png);
+    width:  calc(673px / var(--index));
+    height: calc(355px / var(--index));
+    translate: 233px 260px;
+    z-index: 5;
+}
+
+#paramos-fungicos{
+    background-image: url(../images/map-pieces/full-map/paramos-fungicos.png);
+    width:  calc(711px / var(--index));
+    height: calc(774px / var(--index));
+    translate: 300px 260px;
+    z-index: 2;
+}
+
+#ciudad-de-lagrimas{
+    background-image: url(../images/map-pieces/full-map/ciudad-de-lagrimas.png);
+    width:  calc(1245px / var(--index));
+    height: calc(640px / var(--index));
+    translate: 523px 260px;
+    z-index: 1;
+}
+
+#limito-del-reino{
+    background-image: url(../images/map-pieces/full-map/limito-del-reino.png);
+    width:  calc(994px / var(--index));
+    height: calc(1020px / var(--index));
+    translate: 775px 285px;
+    z-index: 2;
+}
+
+#la-colmena{
+    background-image: url(../images/map-pieces/full-map/la-colmena.png);
+    width:  calc(569px / var(--index));
+    height: calc(333px / var(--index));
+    translate: 895px 516.5px;
+    z-index: 3;
+}
+
+#canales-reales{
+    background-image: url(../images/map-pieces/full-map/canales-reales.png);
+    width:  calc(1213px / var(--index));
+    height: calc(383px / var(--index));
+    translate: 495px 450px;
+    z-index: 1;
+}
+
+#nidoprofundo{
+    background-image: url(../images/map-pieces/full-map/nidoprofundo.png);
+    width:  calc(1330px / var(--index));
+    height: calc(588px / var(--index));
+    translate: 32px 420px;
+    z-index: 5;
+}
+
+#cuenca-antoqua{
+    background-image: url(../images/map-pieces/full-map/cuenca-antoqua.png);
+    width:  calc(1214px / var(--index));
+    height: calc(370px / var(--index));
+    translate: 436px 575px;
+    z-index: 5;
+}
+
+.size{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.size>img{
+    height: 85vh;
+}

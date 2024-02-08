@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 100%;
+}
+td {
+    width: 33%;
+    padding: 10px;
+    border-bottom: solid 1px lightgray;
+}
+
+.table-headers-text{
+    font-weight: bold;
+    color: white;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+.table-header-color-1{
+    background-color: darkcyan;
+}
+.table-header-color-2{
+    background-color: lightblue;
+}
+
+.col-1{
+    text-align: left;
+}
+.col-2{
+    text-align: center;
+}
+.col-3{
+    text-align: right;
+}
+
+.rows-lightyellow{
+    background-color: lightyellow;
+}

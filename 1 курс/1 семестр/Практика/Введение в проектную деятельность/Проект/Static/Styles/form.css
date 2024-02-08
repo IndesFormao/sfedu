@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration-line: none;
+    color: black;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/form/forms.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+}
+
+header>div{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+header>div>a{
+    width: 97%;
+    height: 80%;
+    line-height: 6.4vh;
+    font-size: calc(0.9vw + 0.9vh);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(244, 244, 244, 0.798);
+    border: 2px solid rgb(202, 202, 202);
+    border-radius: 0 0 7px 7px;
+    transition: 1s;
+}
+
+header>div>a:hover{
+    height: 90%;
+    line-height: 7.8vh;
+}
+
+main{
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: opacity(90%);
+}
+
+table{
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: solid 3px;
+    border-collapse: collapse;
+    height: auto;
+    width: 500px;
+}
+.col{
+    font-weight: bold;
+    text-align: right;
+}
+td{
+    padding: 5px;
+    border: solid 2px;
+}
+
+.center{
+    text-align: center;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+}

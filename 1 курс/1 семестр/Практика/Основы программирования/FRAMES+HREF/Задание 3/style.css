@@ -1,0 +1,9 @@
+.block_1{
+    position: absolute;
+    background-color: green;
+    padding: 10px;
+}
+
+.block_2{
+    background-color: yellow;
+}

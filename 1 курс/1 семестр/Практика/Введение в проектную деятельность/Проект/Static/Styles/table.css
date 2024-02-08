@@ -1,0 +1,23 @@
+table{
+    border: solid 1px;
+    border-color: white;
+    background-color: black;
+    text-align: center;
+}
+caption{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    padding-block: 10px;
+}
+th{
+    background-color: gray;
+    padding-block: 5px;
+    border: solid 1px;
+}
+td{
+    font-style: italic;
+}
+.col{
+    font-weight: bold;
+}   

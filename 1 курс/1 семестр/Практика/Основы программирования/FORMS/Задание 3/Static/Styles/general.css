@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    background-color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border: solid 3px;
+    border-collapse: collapse;
+    height: auto;
+    width: 500px;
+}
+.col{
+    font-weight: bold;
+    text-align: right;
+}
+td{
+    padding: 5px;
+    border: solid 2px;
+}
+.table-1 td{
+    border-color: wheat;
+}
+
+.outside{
+    background-color: white;
+}
+
+.center{
+    text-align: center;
+}
+.top{
+    vertical-align: top;
+}
