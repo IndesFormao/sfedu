@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Iceberg";
+    src: url(/Static/Fonts/Iceberg-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Iceberg;
+}
+
+
+header{
+    position: fixed;
+    width: 100vw;
+    background-color: var(--color4);
+    display: flex;
+    font-size: 20px;
+    height: 7vh;
+}
+header>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: solid 1px white;
+    width: calc(100vw/3);
+}
+
+header>div:last-child{
+    width: 10vw;
+}
+
+header>div>div:first-child{
+    border-right: solid 1px white;
+    width: 50%;
+    font-size: 16px;
+}
+header>div>div>div{
+    flex-flow: column;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+}
+
+figure{
+    height: 50%;
+}
