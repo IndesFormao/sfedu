@@ -7,13 +7,13 @@ def is_palindrome():
     check_word=word[::-1]
     what_is= 'палиндром' if word==check_word else 'не палиндром'
 
-def message(word, what_is):
+def message():
     print('Слово %s - %s'%(word, what_is))
   
 def check_palindrome():
     print('Поиск палиндромов')
     get_word()
     is_palindrome()
-    message(word, what_is)
+    message()
 
 check_palindrome()
