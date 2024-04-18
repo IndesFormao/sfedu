@@ -1,8 +1,8 @@
 def get_info(number):
+    ege2 = [ "Математика - 78", "Информатика - 75", "Русский язык - 62" ]
     list = [ ege2[number].split(" - ")[0], int(ege2[number].split(" - ")[1])]
     return list
 
-ege2 = [ "Математика - 78", "Информатика - 75", "Русский язык - 62" ]
 subjects=[]
 marks=[]
 
