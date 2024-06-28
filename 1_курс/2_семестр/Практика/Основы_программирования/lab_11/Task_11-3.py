@@ -13,6 +13,6 @@ def check_input(data):
     words = word(words)
     return words
 
-data=input('Введите слова для их проверки на палиндром: ')
-words=check_input(data)
+dat=input('Введите слова для их проверки на палиндром: ')
+words=check_input(dat)
 print(words)
