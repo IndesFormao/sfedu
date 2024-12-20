@@ -1,0 +1,71 @@
+#include <iostream>
+#include <complex>
+#include <math.h>
+using namespace std;
+
+
+int f1(int a, int b, int c, float& d1, float& d2){
+    float D = b*b - 4*a*c;
+    
+    if(a==0){
+        if (b==0 && c==0){
+            return 0;
+        }
+        d1 = (-b * 1.0) / c;
+        d2 = d1;
+    }
+    else if (b == 0){
+        d1 = sqrt(a);
+        d2 = -sqrt(a);
+    }
+    else{
+        if (D < 0){
+            return 0;
+        }
+        else{
+            float sqrt_D = sqrt(D);
+            d1 = (-b + sqrt_D) / (2*a);
+            d1 = (-b - sqrt_D) / (2*a);
+        }
+    }
+    return 1;
+}
+
+
+float f2(int x) {
+    float y;
+    
+    if (x < 0){
+        y = 2.0 / x;
+    }
+    else if (x >= 7){
+        y = -x;
+    }
+    else if (x < 7 && x >= 3){
+        y = x*x / 3.0;
+    }
+    else{
+        y = 6.1;
+    }
+    return y;
+}
+
+
+int main()
+{
+    int a, b, c, x_for_y, ab;
+    float x1, x2;
+    
+    
+    cout << "Куракин Н.А., группа 2.6" << endl;
+    cout << "Дата: 20.11.2024" << endl;
+    
+    cout << "Задание 1\nВведите 3 числа для уравнения вида ax^2+bx+c=0" << endl;
+    cin >> a >> b >> c;
+    ab = f1(a, b, c, x1, x2);
+    cout << x1 << endl << x1 << endl;
+    
+    cout << "Задание 2\nВведите число" << endl;
+    cin >> x_for_y;
+    cout << f2(x_for_y) << endl;
+}
