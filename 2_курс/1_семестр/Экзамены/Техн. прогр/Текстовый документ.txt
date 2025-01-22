@@ -1,0 +1,96 @@
+#include <iostream>
+using namespace std;
+
+
+
+void f1 (float *arr, int N) {
+    int sign = -1.0;
+    arr[0]=1.0;
+    for (int i = 1; i < N; i++){
+        arr[i]=(sign*3.0*i)/(2.0*i-13);
+        sign = -sign;
+    }
+}
+
+float f2 (float *arr, int N, int &count, float &sum1) {
+    float sum = 0.0;
+    for (int i = 0; i < N; i++){
+        if (arr[i] >= 0){
+            if (arr[i] <= 4){
+                sum += arr[i];
+            }
+        }
+        if (arr[i] >= -1){
+            if (arr[i] <= 0){
+                sum1 += arr[i];
+                ++count;
+            }
+        }
+    }
+    
+    return sum;
+}
+
+float f3 (int x) {
+    if (x == 3){
+        return 3.0/5;
+    }
+    else if (x < 4){
+        return 2.0*x/4;
+    }
+    else if (x > 12){
+        return x/2.0;
+    }
+    else if (x > 6){
+        if (x <= 11){
+            return x*x;
+        }
+    }
+    return 2.21;
+}
+
+int main () {
+    //создание массива
+    int n = 11;
+    float *array = new float [n];
+    
+    //зануление
+    for (int i = 0; i < n; i++){
+        array[i] = 0;
+    }
+    
+    f1(array, n);
+    for (int i = 0; i < n; i++){
+        cout << array[i] << endl;
+    }
+    cout << endl;
+    
+    int coun;
+    float sum_zero;
+    float sum_four = f2(array, n, coun, sum_zero);
+    cout << "Сумма от 0 до 4 = " << sum_four << endl;
+    cout << "Сумма от -1 до 0 = " << sum_zero << endl;
+    cout << "Кол-во элементов от -1 до 0: " << coun << endl;
+    cout << endl;
+    
+    float y;
+    int X = 1;
+    y = f3(X);
+    cout << "X = " << X << " Y = " << y << endl;
+    
+    X = 3;
+    y = f3(X);
+    cout << "X = " << X << " Y = " << y << endl;
+    
+    X = 6;
+    y = f3(X);
+    cout << "X = " << X << " Y = " << y << endl;
+    
+    X = 9;
+    y = f3(X);
+    cout << "X = " << X << " Y = " << y << endl;
+    
+    X = 13;
+    y = f3(X);
+    cout << "X = " << X << " Y = " << y << endl;
+}
